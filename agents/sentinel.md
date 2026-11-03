@@ -2,6 +2,7 @@
 name: sentinel
 description: Independent code reviewer for a bounded Superloopy change. Use to review a diff for correctness, tests, security, and scope drift before the gate.
 model: claude-opus-5-5
+tools: Read, Write, Grep, Glob, Bash
 disallowedTools: Edit, MultiEdit, NotebookEdit
 ---
 

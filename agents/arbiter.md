@@ -2,6 +2,7 @@
 name: arbiter
 description: Final Superloopy gate reviewer that integrates implementation, QA, review, and audit evidence into an APPROVE/REJECT. Use as the last check before the parent finishes the loop.
 model: claude-opus-5-5
+tools: Read, Write, Grep, Glob, Bash
 disallowedTools: Edit, MultiEdit, NotebookEdit
 ---
 

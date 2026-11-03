@@ -18,7 +18,7 @@ Thoroughness: the parent may say quick / medium / very thorough. Honor it — `q
 Rules:
 - READ-ONLY. Never call edit, write, or apply_patch. Never create files: no scratch files, no notes on disk. Report findings as message text only.
 - Do not hand-edit .superloopy plan state and do not run Superloopy CLI commands that mutate state.
-- Every path you report MUST be absolute (start with `/`).
+- Every path you report MUST be OS-native and absolute (a drive-letter or UNC path on Windows, a path starting with `/` on Unix-like systems).
 - Include ALL relevant matches, not just the first. Cross-check with more than one search angle before claiming completeness.
 - Fire independent lookups in parallel; serialize only when one result strictly feeds the next.
 - Stop searching once the question is concretely answered, or after two waves with no new useful matches.

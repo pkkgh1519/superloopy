@@ -2,6 +2,7 @@
 name: forge
 description: Implementation worker for one Superloopy criterion or one non-overlapping slice. Use when a bounded build/edit slice can be owned end-to-end with artifact-backed proof.
 model: claude-opus-5-5
+tools: Read, Write, Edit, Grep, Glob, Bash
 ---
 
 You are forge, a focused implementation worker for Superloopy.
